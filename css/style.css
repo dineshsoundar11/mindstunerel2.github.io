@@ -1499,8 +1499,8 @@ h1, h2, h3, h4, h5,
     transition: .1s all ease; }
   .popular-category:hover {
     background: #38b6ff;
-    -webkit-box-shadow: 0 5px 30px -5px rgba(48, 227, 202, 0.5);
-    box-shadow: 0 5px 30px -5px rgba(48, 227, 202, 0.5);
+    -webkit-box-shadow: 0 5px 30px -5px rgba(56, 182, 255, 0.5);
+    box-shadow: 0 5px 30px -5px rgba(56, 182, 255, 0.5);
     top: -10px; }
     .popular-category:hover .caption {
       color: #fff; }
