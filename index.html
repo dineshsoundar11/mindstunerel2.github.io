@@ -166,8 +166,8 @@ charset="utf-8"></script><script>Ecwid.init();</script></div>
                           <option value="electrical">Electrical &amp;  Controls</option>
                           <option value="mechprocess">Mechanical Process Engineering</option>
                           <option value="steel">Stuctural Steel</option>
-                          <option value="oil">Oil &amp; Gas</option>
-                          <option value="">Others</option>
+                          <!-- <option value="oil">Oil &amp; Gas</option> -->
+                          <option value="others">Others</option>
                         </select>
                       </div>
                     </div>
@@ -815,6 +815,7 @@ charset="utf-8"></script><script>Ecwid.init();</script></div>
    ,electrical: 'https://www.mindstune.com/shop.html#!/Electrical-and-Controls/c/35177725/offset=0&sort=normal'
    ,piping: 'https://www.mindstune.com/shop.html#!/Pipping/c/35230314/offset=0&sort=normal'
    ,steel: 'https://www.mindstune.com/shop.html#!/Structural-Steel/c/35371579/offset=0&sort=normal'
+   ,others: 'https://www.mindstune.com/shop.html#!/c/0/offset=0&sort=addedTimeDesc'
   }
   document.getElementById('submit').addEventListener('click', () =>
     location.href = map[document.getElementById('select').value])
